@@ -147,7 +147,7 @@ char ch1, ch2;
 
 
 void inputFirstChar() {
-
+	enterChar(ch1, "Введите первый символ");
 
 		//branch_fun_1
 
