@@ -185,8 +185,7 @@ cout << "Символ: " << ch2 << ", Код ASCII: " << (int)ch2 << endl;
 // Функция для вывода суммы кодов ASCII
 
 void printAsciiSum() {
-
-
+	cout << "Сумма кодов ASCII: " << (int)ch1 + (int)ch2 << endl;
 	//branch_fun_4
 
 
