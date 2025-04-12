@@ -147,7 +147,7 @@ char ch1, ch2;
 
 
 void inputFirstChar() {
-
+	enterChar(ch1, "Введите первый символ");
 
 		//branch_fun_1
 
@@ -158,7 +158,7 @@ void inputFirstChar() {
 // Функция для ввода второго символа
 
 void inputSecondChar() {
-
+	enterChar(ch2, "Введите второй символ");
 
 
 	//branch_fun_2
@@ -172,7 +172,8 @@ void inputSecondChar() {
 // Функция для вывода символа и его кода ASCII
 
 void printCharAndAscii() {
-
+	cout << "Символ: " << ch1 << ", Код ASCII: " << (int)ch1 << endl;
+cout << "Символ: " << ch2 << ", Код ASCII: " << (int)ch2 << endl;
 
 
 	//branch_fun_3
