@@ -172,7 +172,8 @@ void inputSecondChar() {
 // Функция для вывода символа и его кода ASCII
 
 void printCharAndAscii() {
-
+	cout << "Символ: " << ch1 << ", Код ASCII: " << (int)ch1 << endl;
+cout << "Символ: " << ch2 << ", Код ASCII: " << (int)ch2 << endl;
 
 
 	//branch_fun_3
